@@ -9,3 +9,41 @@
 .high-usage {
   color: red;
 }
+
+body{
+  text-align: center;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 4.5em;
+  color: #ab3a3a;
+}
+
+h2{
+  font-family: monospace;
+  font-size: 3.5em;
+}
+
+h3{
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 2.0em;
+}
+
+p{
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+button{
+  padding: 3px 18px 6px;
+  border-radius: 15px;
+  border-color: #ab3a3a;
+  background-color: #e0505054;
+}
+
+select{
+  padding: 3px 18px 6px;
+  border-radius: 15px;
+}

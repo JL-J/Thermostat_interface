@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="usage.css">
 </head>
 <body>
-  <section>
-  <h1>Current temperature outside: <span id="current-temperature"></span></h1>
+  <section id="api">
+  <h1>Thermostat</h1>
+    <p>Select your city</p>
     <select id="current-city">
       <option value="london">London</option>
       <option value="berlin">Berlin</option>
@@ -15,15 +16,17 @@
       <option value="paris">Paris</option>
       <option value="tokyo">Tokyo</option>
     </select>
+    <h3>Current temperature outside:</h3>
+      <h2><span id="current-temperature"></span>°C</h2>
   </section>
-  <div id="displays" >
-    Current temperature:
-  <p id="temperature" class=""></p>
-  </div>
-  <div id="buttons" >
+  <div id="current_temperature" >
+    <h3>Current temperature:</h3>
+    <h2 id="temperature" class=""></h2>
     <p><button id="temperature_up">+</button>
-    <button id="temperature_down">-</button></p>
-    <p><button id="temperature_reset">Reset</button></p>
+    <button id="temperature_down">-</button>
+    <button id="temperature_reset">Reset</button></p>
+  </div>
+  <div id="power_saving_mode" >
     <p id="power_saving">Power saving mode is ON</p>
     <p><button id="powersaving_on">On</button>
     <button id="powersaving_off">Off</button></p>

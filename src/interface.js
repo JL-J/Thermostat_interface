@@ -30,7 +30,7 @@ $(document).ready(function() {
   })
 
   function updateTemperature() {
-    $('#temperature').text(thermostat.temperature);
+    $('#temperature').text(thermostat.temperature + '°C');
     $('#temperature').attr('class', thermostat.currentUsage());
   };
 
