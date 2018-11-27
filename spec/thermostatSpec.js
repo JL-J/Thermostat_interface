@@ -66,7 +66,7 @@ describe("Thermostat", function() {
   it("returns high-usage when temp > 25", function() {
     for (var i = 0; i < 30; i++) {
     thermostat.up();
-  }
+   }
     expect(thermostat.currentUsage()).toEqual('high-usage')
   });
 
@@ -79,6 +79,6 @@ describe("Thermostat", function() {
     thermostat.down();
   }
     expect(thermostat.currentUsage()).toEqual('low-usage')
-  })
+  });
 
 })
